@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400;700&family=Poppins:wght@500;700;800&family=Staatliches&family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400;700&family=Poppins:wght@200;500;700;800&family=Staatliches&family=Teko&display=swap');
 body{
-font-family: 'Poppins', sans-serif;
+font-family: sans-serif;
 }
 .departments .card-img-top{
     width: 100%;
