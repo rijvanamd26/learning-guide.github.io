@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400;700&family=Poppins:wght@500;700;800&family=Staatliches&family=Teko&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <!--font awesome 5(6.1.1 version) font awesome icon cdn library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark">
+    <!-- <---------------navbar------------------------ -->
+    <!--navbar section-->
+    <header class="header_wrapper mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light p-3 fixed-top" style="background-color:rgb(20, 20, 126)">
+            <div class="container">
+                <a class="navbar-toggler bg-light" href="" data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </a>
+                <a href="#" class="navbar-brand">
+                    <!--<img src="images/241px-Vignan_logo.png" width="16%" height="16%">--><span class="fw-bold fs-5"
+                        style="color:rgb(248, 244, 244)">
+                        VIGNAN</span>
+                </a>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-light active nav-text1">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle nav-text1" href="#" id="navbarDropdownMenuLink"
+                                role="a" data-bs-toggle="dropdown" aria-expanded="false">
+                                STUDY MATERIALS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="sm/cse_sm.html">CSE</a></li>
+                                <li><a class="dropdown-item" href="sm/ece_sm.html">ECE</a></li>
+                                <li><a class="dropdown-item" href="sm/eee_sm.html">EEE</a></li>
+                                <li><a class="dropdown-item" href="sm/ecm_sm.html">ECM</a></li>
+                                <li><a class="dropdown-item" href="sm/it_sm.html">IT</a></li>
+                                <li><a class="dropdown-item" href="sm/aids_sm.html">AIDS</a></li>
+                                <li><a class="dropdown-item" href="sm/civil_sm.html">CIVIL</a></li>
+                                <li><a class="dropdown-item" href="sm/mech_sm.html">MECH</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle nav-text1" href="#" id="navbarDropdownMenuLink"
+                                role="a" data-bs-toggle="dropdown" aria-expanded="false">
+                                MODEL PAPERS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="mp/cse_mp.html">CSE</a></li>
+                                <li><a class="dropdown-item" href="mp/ece_mp.html">ECE</a></li>
+                                <li><a class="dropdown-item" href="mp/eee_mp.html">EEE</a></li>
+                                <li><a class="dropdown-item" href="mp/ecm_mp.html">ECM</a></li>
+                                <li><a class="dropdown-item" href="mp/it_mp.html">IT</a></li>
+                                <li><a class="dropdown-item" href="mp/aids_mp.html">AIDS</a></li>
+                                <li><a class="dropdown-item" href="mp/civil_mp.html">CIVIL</a></li>
+                                <li><a class="dropdown-item" href="mp/mech_mp.html">MECH</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-text1">
+                            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="a" data-bs-toggle="dropdown" aria-expanded="false">
+                                VIDEO LECTURES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="vd/cse_vd.html">CSE</a></li>
+                                <li><a class="dropdown-item" href="vd/ece_vd.html">ECE</a></li>
+                                <li><a class="dropdown-item" href="vd/eee_vd.html">EEE</a></li>
+                                <li><a class="dropdown-item" href="vd/ecm_vd.html">ECM</a></li>
+                                <li><a class="dropdown-item" href="vd/it_vd.html">IT</a></li>
+                                <li><a class="dropdown-item" href="vd/aids_vd.html">AIDS</a></li>
+                                <li><a class="dropdown-item" href="vd/civil_vd.html">CIVIL</a></li>
+                                <li><a class="dropdown-item" href="vd/mech_vd.html">MECH</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-text1">
+                            <a href="alumni.html" class="nav-link text-light">ALUMNI</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--navbar section end-->
+
+    <!-- ---------------End navbar------------------------ -->
+    <br>
+    <section id="Carousel" class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel" data-interval="100">
+                    <div class="carousel-indicators" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></a>
+                        <a href="" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></a>
+                        <a href="" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></a>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="images/book1.jpg" class="d-block w-100" alt="back1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="text-center align-items-center justify-content-center" style="padding-bottom: 10%;" data-aos="zoom-in" data-aos-duration="1500">
+                                <h1>Download the B.Tech Study materials and model papers via the direct links.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/b1.jpg" class="d-block w-100" alt="back1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="text-center align-items-center justify-content-center" style="padding-bottom: 10%;" data-aos="zoom-in" data-aos-duration="1500">
+                                <h1>Prepare with the updated and exhaustive materials.</h1>
+                            </div></div>
+                        </div>
+                        <div class="carousel-item"  data-interval="2000">
+                            <img src="images/alumini.png" class="d-block w-100" alt="back1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="text-center align-items-center justify-content-center" style="padding-bottom: 10%;" data-aos="zoom-in" data-aos-duration="1500">
+                                    <h1>Get in touch with our alumni</h1>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <----------------------Department Section--------------------------------->
+    <section class="departments bg-light py-2 mt-3" id="departments">
+        <div class="container">
+            <div class="row mt-5 mb-3">
+                <div class="col title text-align:center">
+                    <h1>DEPARTMENTS</h1>
+                </div>
+            </div>
+            <div class="row ms-auto" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-md-3 col-sm-12 py-3">
+                    <div class="card" style="width: auto;text-align:center">
+                        <img class="card-img-top justify-content-center" style="width: auto;"  src="images/cse1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/cse_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/cse_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3">
+                    <div class="card " style="width: auto;text-align:center">
+                        <img class="card-img-top justify-content-center" src="images/ece1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/ece_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/ece_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3">
+                    <div class="card" style="width: auto;text-align:center">
+                        <div style="width: 100%;">
+                        <img class="card-img-top" src="images/eee1.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/eee_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/eee_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3">
+                    <div class="card " style="width: auto;text-align:center">
+                        <img class="card-img-top" src="images/civil.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/civil_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/civil_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3">
+                    <div class="card" style="width: auto;text-align:center">
+                        <img class="card-img-top" src="images/it1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/it_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/it_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3 ">
+                    <div class="card " style="width: auto;text-align:center">
+                        <img class="card-img-top" src="images/mech1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/mech_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/mech_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3">
+                    <div class="card " style="width: auto;text-align:center">
+                        <img class="card-img-top" src="images/ai.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/aids_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/aids_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-3">
+                    <div class="card " style="width: auto;text-align:center">
+                        <img class="card-img-top" src="images/ecm.webp" alt="Card image cap">
+                        <div class="card-body align-item-center">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="sm/ecm_sm.html" class="btn btn-light mx-3">Study Material</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="mp/ecm_mp.html" class="btn btn-light mx-3">Test Papers</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <----------------------End Department Section--------------------------------->
+
+
+    <!--FeedBack-->
+    <section id="feedback" class="bg-dark">
+        <div class="container mt-5">
+            <div class="row mx-5">
+                <div class="col text-center text-white mb-5" data-aos="fade-up" data-aos-duration="1500">
+                    <h1>Feedback</h1>
+                </div>
+            <div class="carousel owl-carousel mt-3" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body"  style="min-height:220px;">
+                        <h5 class="card-title">Riz</h5>
+                        <p class="card-text">This website is best with many materials intact with them..Gathering materials from this webpage is easy...</p>
+                            <p>⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body"  style="min-height:220px;">
+                        <h5 class="card-title">Vishnu</h5>
+                        <p class="card-text">It helped me a lot during my semesters exams...</p>
+                            <p>⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body"  style="min-height:220px;">
+                        <h5 class="card-title">Akash</h5>
+                        <p class="card-text">This webpage is useful for students who are appearing for their semester exams..</p>
+                            <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body" style="min-height:220px;">
+                        <h5 class="card-title">Loki</h5>
+                        <p class="card-text">It helped me in clearing all my backlogs.</p>
+                            <p>⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 18rem;min-height: 55px;">
+                    <div class="card-body"  style="min-height:211px;">
+                        <h5 class="card-title">Yaswanth</h5>
+                        <p class="card-text">This website is best with many materials intact with them. Useful for all BTECH students. Easy to use
+
+                        </p>
+                            <p>⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--FeedBack End-->
+    <!--contact-->
+    <section class="contact cnt py-4 mt-5 bg-white" id="contact">
+        <div class="container-lg py-4 text-white">
+            <div class="row text-dark justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <img src="https://cdn.dribbble.com/users/49803/screenshots/1699648/calling.gif" width="180px"
+                            data-aos="fade-up" data-aos-duration="1500">
+                        <h1 class="fw-bold mt-1 mb-2" style="text-shadow: 2px 2px 4px #d1c9c9;" data-aos="fade-up"
+                            data-aos-duration="1500">---- GET IN TOUCH ----</h><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-dark">
+                <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-duration="1500">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-envelope fs-4  mb-3 mx-2" style="color:rgb(20,20,126)"> </i><a
+                                href="mailto:rijvana.md26@gmail.com" class="cnt-details text-dark">vignanstudents2@gmail.com</a>
+                        </li>
+                        <li><i class="fas fa-phone fs-4 mb-3 mx-2" style="color:rgb(20,20,126)"></i> <a href="tel:7569332075"
+                                class="cnt-details text-dark" >+91 9988998899</a></li>
+                        <li><i class="fas fa-map-marker-alt fs-4 mx-2" style="color:rgb(20,20,126)"></i><a href="" class="cnt-details text-dark"
+                                >VIIT, Duvvada, Visakhapatnam</a></li>
+                    </ul>
+
+                </div>
+
+                <!--form start-->
+                <div class="col-md-6 mt-3" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="contact-form">
+                        <form action="connect1.php" method="post">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Enter Name"
+                                        class="form-control form-control-lg fs-6 border-2" name="Name"></i>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" placeholder="Enter Email"
+                                        class="form-control form-control-lg fs-6 border-2" name="gmail">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <input type="text" placeholder="Subject"
+                                        class="form-control form-control-lg fs-6 border-2" name="subject">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <textarea rows="5" placeholder="Message"
+                                        class="form-control form-control-lg fs-6 border-2"
+                                        name="msg"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="" class="btn" style="background-color:rgb(21, 21, 132);color:white">Send</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--form end-->
+            </div>
+        </div>
+    </section>
+    <!--contact end-->
+    <!--footer start-->
+    <footer class="footer py-4 footer-bgdark bg-dark">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-light">&copy 2022 Copyright: All Rights Reserved, Made by Web Hackers
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script/script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</html>
